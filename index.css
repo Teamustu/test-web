@@ -2,12 +2,13 @@ body {
     font-family: "Comic Sans MS", cursive, sans-serif
 
 }
-.main {
+.header {
     padding: 30px;
     background-color: cadetblue;
     color: white;
-
 }
-.main p {
-    padding-left: 30px;
+.header p {
+
+    font-size: 15px;
+    margin-top: 0px;
 }
