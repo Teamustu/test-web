@@ -1,14 +1,42 @@
 body {
-    font-family: "Comic Sans MS", cursive, sans-serif
-
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    word-wrap: break-word;
 }
 .header {
+    margin:0px;
     padding: 30px;
     background-color: cadetblue;
     color: white;
+    margin-bottom: 50px
 }
 .header p {
 
     font-size: 15px;
     margin-top: 0px;
+}
+
+.AboutMe {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.box {
+    float: left;
+    width: 50%;
+    min-width: 350px;
+    margin: auto;
+}
+.AboutMe img {
+    width: 100%;
+    float: right;
+    max-width: 650px;
+}
+@media screen and (max-width: 800px) {
+    .box {
+        width: 100%;
+    }
 }
